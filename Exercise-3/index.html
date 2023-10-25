@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 | CWH-Exercises</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:rgba(169, 169, 169, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            height: 550px;
+            width:340px;
+            margin-top: 25px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .box img {
+            border-radius: 13px;
+            margin: 10px;
+            width: 320px;
+        }
+
+        .box span {
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            margin-left: 20px;
+        }
+
+        .box h2 {
+            margin: 20px 25px;
+        }
+
+        .box p {
+            margin: 20px 25px;
+        }
+
+        .box > div {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box .read-more {
+            color: darkblue;
+            font-weight: 700;
+            background-color: rgba(0, 0, 255, 0.322);
+            width: fit-content;
+            padding: 10px;
+            border-radius: 15px;
+            justify-content: space-evenly;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="img.png">
+        <br>
+        <span>Nature</span>
+        <span>Tree</span>
+        <h2>Forest's Beauty</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque sapiente saepe excepturi nobis, omnis cupiditate ipsam, enim corrupti non ipsa, dolores sequi corporis earum.</p>
+        <div>
+            <div class="read-more">Read More</div>
+        </div>    
+    </div>
+</body>
+</html>
